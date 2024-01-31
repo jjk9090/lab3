@@ -1,0 +1,11 @@
+userid,name,gender,age,cash,personality,interest,feature,occupation
+0,John Doe,male,25,2500,optimistic,Prefer the simple life,3,chef
+1,Jane Smith,female,32,4200,logical,Like the luxury of life,4,Dessert chef
+2,Michael Johnson,male,41,3800,pessimistic,Prefer the simple life,2,Electronic engineer
+3,Emily Davis,female,28,1500,creative,Like the luxury of life,4,Product manager
+4,David Wilson,male,35,3000,optimistic,Prefer the simple life,3,Lobby manager
+5,Sarah Thompson,female,46,4800,logical,Like the luxury of life,5,Teacher
+6,Robert Anderson,male,22,1800,creative,Prefer the simple life,2,Medic
+7,Lisa Brown,female,39,4100,pessimistic,Like the luxury of life,4,lawyer
+8,James Taylor,male,31,2700,optimistic,Prefer the simple life,4,Worker
+9,Amy Miller,female,37,3500,logical,Like the luxury of life,3,saleswoman

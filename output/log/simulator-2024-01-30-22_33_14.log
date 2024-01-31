@@ -1,0 +1,559 @@
+2024-01-30 22:33:14 - INFO - simulator - main - os.getpid()=113435
+2024-01-30 22:33:14 - INFO - simulator - main - 
+active_agent_threshold: 100
+active_method: random
+active_prob: 1
+adv_agent_num: 2
+advertiser_path: ./dataset/advertiser.csv
+agent_memory: GenerativeAgentMemory
+api_keys: ['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', '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', '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']
+epoch: 7
+execution_mode: serial
+groups: [{'gender': 'male', 'traits': 'caring'}, {'gender': 'female'}]
+index_name: data/faiss_index
+interaction_path: ./data/dataset/new_inter.csv
+interval: 5h
+item_path: ./dataset/adv.csv
+llm: gpt-3.5
+log_file: simulation.log
+log_name: 113435
+max_retries: 100
+max_token: 1500
+output_file: output/message/messages.json
+page_size: 5
+play_role: False
+rec_model: Random
+relationship_path: data/relationship_1000.csv
+simulator_dir: data/simulator
+simulator_restore_file_name: None
+temperature: 0
+user_agent_num: 10
+user_path: ./dataset/user.csv
+verbose: True
+2024-01-30 22:33:14 - INFO - simulator - load_simulator - Simulator loaded.
+2024-01-30 22:33:14 - INFO - simulator - main - Round 1
+2024-01-30 22:33:18 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 22:33:18 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user John Doe.
+2024-01-30 22:33:21 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 22:33:21 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Jane Smith.
+2024-01-30 22:33:22 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Michael Johnson: Yes.
+2024-01-30 22:33:22 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Michael Johnson.
+2024-01-30 22:33:28 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 22:33:28 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Emily Davis.
+2024-01-30 22:33:36 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 22:33:36 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user David Wilson.
+2024-01-30 22:33:41 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 22:33:41 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Sarah Thompson.
+2024-01-30 22:33:44 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 22:33:44 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Robert Anderson.
+2024-01-30 22:33:47 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 22:33:47 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Lisa Brown.
+2024-01-30 22:33:48 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 22:33:48 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user James Taylor.
+2024-01-30 22:33:51 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 22:33:51 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Amy Miller.
+2024-01-30 22:33:54 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 22:33:54 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user John Doe.
+2024-01-30 22:34:04 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 22:34:04 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Jane Smith.
+2024-01-30 22:34:06 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 22:34:09 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 22:34:09 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Emily Davis.
+2024-01-30 22:34:11 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 22:34:11 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user David Wilson.
+2024-01-30 22:34:13 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Sarah Thompson: No.
+2024-01-30 22:34:16 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Robert Anderson: No.
+2024-01-30 22:34:17 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Lisa Brown: No.
+2024-01-30 22:34:21 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 22:34:21 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user James Taylor.
+2024-01-30 22:34:29 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Amy Miller: No.
+2024-01-30 22:34:29 - INFO - simulator - group_one_step - Here's an advertisement: the type is Luxury Product,the slogan is Bold and abundant advertising and the product of the ad is Chanel classic flap bag
+
+2024-01-30 22:34:38 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主A
+2024-01-30 22:35:03 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主A
+2024-01-30 22:35:13 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主A
+2024-01-30 22:35:49 - INFO - simulator - group_one_step - Michael Johnson doesn't do anything of the ad of 广告主A
+2024-01-30 22:36:13 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主A
+2024-01-30 22:36:33 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主A
+2024-01-30 22:37:01 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主A
+2024-01-30 22:37:37 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主A
+2024-01-30 22:37:41 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主A
+2024-01-30 22:38:20 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主A
+2024-01-30 22:38:42 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主A
+2024-01-30 22:38:55 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主A
+2024-01-30 22:39:21 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主A
+2024-01-30 22:40:00 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主A
+2024-01-30 22:40:04 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主A
+2024-01-30 22:40:15 - INFO - simulator - group_one_step - Here's an advertisement: the type is Everyday Product,the slogan is Massive advertising and the product of the ad is Zojirushi rice cooker
+
+2024-01-30 22:40:40 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主B
+2024-01-30 22:41:15 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主B
+2024-01-30 22:41:20 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主B
+2024-01-30 22:41:44 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主B
+2024-01-30 22:41:59 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主B
+2024-01-30 22:42:31 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主B
+2024-01-30 22:42:58 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主B
+2024-01-30 22:43:09 - INFO - simulator - round - Round 1 finished. Advertising Data: 
+2024-01-30 22:43:09 - INFO - simulator - save - Current simulator Save in: 
+data/simulator/304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl
+
+2024-01-30 22:43:09 - INFO - simulator - save - Simulator File Path (root -> node): 
+['304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl']
+
+2024-01-30 22:43:09 - INFO - simulator - main - Round 2
+2024-01-30 22:43:15 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 22:43:15 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user John Doe.
+2024-01-30 22:43:23 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 22:43:23 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Jane Smith.
+2024-01-30 22:43:29 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 22:43:34 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 22:43:34 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Emily Davis.
+2024-01-30 22:43:40 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 22:43:40 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user David Wilson.
+2024-01-30 22:43:54 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 22:43:54 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Sarah Thompson.
+2024-01-30 22:43:56 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 22:43:56 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Robert Anderson.
+2024-01-30 22:43:58 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 22:43:58 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Lisa Brown.
+2024-01-30 22:44:15 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 22:44:15 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user James Taylor.
+2024-01-30 22:44:17 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 22:44:17 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Amy Miller.
+2024-01-30 22:44:25 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 22:44:25 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user John Doe.
+2024-01-30 22:44:27 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 22:44:27 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Jane Smith.
+2024-01-30 22:44:30 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 22:44:36 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 22:44:36 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Emily Davis.
+2024-01-30 22:44:42 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 22:44:42 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user David Wilson.
+2024-01-30 22:44:48 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Sarah Thompson: No.
+2024-01-30 22:44:52 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 22:44:52 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Robert Anderson.
+2024-01-30 22:45:00 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 22:45:00 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Lisa Brown.
+2024-01-30 22:45:05 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 22:45:05 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user James Taylor.
+2024-01-30 22:45:10 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Amy Miller: No.
+2024-01-30 22:45:10 - INFO - simulator - group_one_step - Here's an advertisement: the type is Luxury Product,the slogan is Innovative design, leading the trend and the product of the ad is Hermes silk scarf
+
+2024-01-30 22:45:39 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主A
+2024-01-30 22:46:02 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主A
+2024-01-30 22:46:12 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主A
+2024-01-30 22:46:43 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主A
+2024-01-30 22:46:55 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主A
+2024-01-30 22:47:28 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主A
+2024-01-30 22:47:53 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主A
+2024-01-30 22:48:08 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主A
+2024-01-30 22:48:38 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主A
+2024-01-30 22:49:09 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主A
+2024-01-30 22:49:20 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主A
+2024-01-30 22:49:46 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主A
+2024-01-30 22:50:26 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主A
+2024-01-30 22:51:43 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主A
+2024-01-30 22:51:48 - INFO - simulator - group_one_step - Here's an advertisement: the type is Everyday Product,the slogan is Enhance quality of life, enjoy happiness and the product of the ad is Philips smart light bulb
+
+2024-01-30 22:51:57 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主B
+2024-01-30 22:52:42 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主B
+2024-01-30 22:52:47 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主B
+2024-01-30 22:52:59 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主B
+2024-01-30 22:53:02 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主B
+2024-01-30 22:53:26 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主B
+2024-01-30 22:53:49 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主B
+2024-01-30 22:54:23 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主B
+2024-01-30 22:54:31 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主B
+2024-01-30 22:54:58 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主B
+2024-01-30 22:55:14 - INFO - simulator - round - Round 2 finished. Advertising Data: 
+2024-01-30 22:55:14 - INFO - simulator - save - Current simulator Save in: 
+data/simulator/419235738-Round[2]-AgentNum[10]-2024-01-30-22_55_14.pkl
+
+2024-01-30 22:55:14 - INFO - simulator - save - Simulator File Path (root -> node): 
+['304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl', '419235738-Round[2]-AgentNum[10]-2024-01-30-22_55_14.pkl']
+
+2024-01-30 22:55:14 - INFO - simulator - main - Round 3
+2024-01-30 22:55:20 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 22:55:20 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user John Doe.
+2024-01-30 22:55:23 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 22:55:23 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Jane Smith.
+2024-01-30 22:55:29 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 22:55:37 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 22:55:37 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Emily Davis.
+2024-01-30 22:55:43 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 22:55:43 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user David Wilson.
+2024-01-30 22:55:48 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 22:55:48 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Sarah Thompson.
+2024-01-30 22:55:55 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 22:55:55 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Robert Anderson.
+2024-01-30 22:55:59 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 22:55:59 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Lisa Brown.
+2024-01-30 22:56:07 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 22:56:07 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user James Taylor.
+2024-01-30 22:56:11 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 22:56:11 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Amy Miller.
+2024-01-30 22:56:17 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 22:56:17 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user John Doe.
+2024-01-30 22:56:25 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 22:56:25 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Jane Smith.
+2024-01-30 22:56:28 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 22:57:26 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 22:57:26 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Emily Davis.
+2024-01-30 22:57:30 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 22:57:30 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user David Wilson.
+2024-01-30 22:57:32 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Sarah Thompson: No.
+2024-01-30 22:57:35 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 22:57:35 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Robert Anderson.
+2024-01-30 22:57:38 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 22:57:38 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Lisa Brown.
+2024-01-30 22:57:40 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 22:57:40 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user James Taylor.
+2024-01-30 22:57:42 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 22:57:42 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Amy Miller.
+2024-01-30 22:57:42 - INFO - simulator - group_one_step - Here's an advertisement: the type is Luxury Product,the slogan is Luxurious enjoyment at your fingertips and the product of the ad is LV limited edition handbag
+
+2024-01-30 22:58:18 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主A
+2024-01-30 22:58:29 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主A
+2024-01-30 22:58:32 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主A
+2024-01-30 22:58:46 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主A
+2024-01-30 22:58:55 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主A
+2024-01-30 22:59:26 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主A
+2024-01-30 22:59:54 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主A
+2024-01-30 23:00:08 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主A
+2024-01-30 23:00:39 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主A
+2024-01-30 23:01:10 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主A
+2024-01-30 23:01:19 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主A
+2024-01-30 23:01:48 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主A
+2024-01-30 23:02:18 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主A
+2024-01-30 23:02:32 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主A
+2024-01-30 23:02:44 - INFO - simulator - group_one_step - Here's an advertisement: the type is Everyday Product,the slogan is Healthy living, happy every day and the product of the ad is Panasonic noodle maker
+
+2024-01-30 23:03:04 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主B
+2024-01-30 23:03:35 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主B
+2024-01-30 23:03:43 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主B
+2024-01-30 23:04:13 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主B
+2024-01-30 23:04:26 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主B
+2024-01-30 23:04:57 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主B
+2024-01-30 23:05:26 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主B
+2024-01-30 23:05:59 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主B
+2024-01-30 23:06:08 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主B
+2024-01-30 23:06:39 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主B
+2024-01-30 23:07:15 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主B
+2024-01-30 23:07:26 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主B
+2024-01-30 23:07:34 - INFO - simulator - round - Round 3 finished. Advertising Data: 
+2024-01-30 23:07:34 - INFO - simulator - save - Current simulator Save in: 
+data/simulator/958401484-Round[3]-AgentNum[10]-2024-01-30-23_07_34.pkl
+
+2024-01-30 23:07:34 - INFO - simulator - save - Simulator File Path (root -> node): 
+['304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl', '419235738-Round[2]-AgentNum[10]-2024-01-30-22_55_14.pkl', '958401484-Round[3]-AgentNum[10]-2024-01-30-23_07_34.pkl']
+
+2024-01-30 23:07:34 - INFO - simulator - main - Round 4
+2024-01-30 23:07:38 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user John Doe: No.
+2024-01-30 23:07:46 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:07:46 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Jane Smith.
+2024-01-30 23:07:51 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:07:56 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:07:56 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Emily Davis.
+2024-01-30 23:08:03 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:08:03 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user David Wilson.
+2024-01-30 23:08:08 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:08:08 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Sarah Thompson.
+2024-01-30 23:08:15 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:08:15 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Robert Anderson.
+2024-01-30 23:08:20 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:08:20 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Lisa Brown.
+2024-01-30 23:08:28 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:08:28 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user James Taylor.
+2024-01-30 23:08:33 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:08:33 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Amy Miller.
+2024-01-30 23:08:40 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 23:08:40 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user John Doe.
+2024-01-30 23:08:44 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:08:44 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Jane Smith.
+2024-01-30 23:08:52 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:08:56 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:08:56 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Emily Davis.
+2024-01-30 23:09:04 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:09:04 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user David Wilson.
+2024-01-30 23:09:10 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:09:10 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Sarah Thompson.
+2024-01-30 23:10:35 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:10:35 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Robert Anderson.
+2024-01-30 23:10:37 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:10:37 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Lisa Brown.
+2024-01-30 23:10:40 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:10:40 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user James Taylor.
+2024-01-30 23:10:42 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:10:42 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Amy Miller.
+2024-01-30 23:10:42 - INFO - simulator - group_one_step - Here's an advertisement: the type is Luxury Product,the slogan is Unique style, showcasing personality and the product of the ad is Dior lipstick
+
+2024-01-30 23:10:50 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主A
+2024-01-30 23:10:57 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主A
+2024-01-30 23:11:27 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主A
+2024-01-30 23:11:35 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主A
+2024-01-30 23:11:48 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主A
+2024-01-30 23:12:02 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主A
+2024-01-30 23:12:13 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主A
+2024-01-30 23:12:48 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主A
+2024-01-30 23:13:17 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主A
+2024-01-30 23:13:34 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主A
+2024-01-30 23:14:00 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主A
+2024-01-30 23:14:28 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主A
+2024-01-30 23:14:39 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主A
+2024-01-30 23:14:51 - INFO - simulator - group_one_step - Here's an advertisement: the type is Everyday Product,the slogan is Practical good stuff, making life more convenient and the product of the ad is Xiaomi smart socket
+
+2024-01-30 23:15:11 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主B
+2024-01-30 23:15:42 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主B
+2024-01-30 23:15:50 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主B
+2024-01-30 23:16:23 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主B
+2024-01-30 23:16:36 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主B
+2024-01-30 23:17:07 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主B
+2024-01-30 23:17:36 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主B
+2024-01-30 23:17:47 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主B
+2024-01-30 23:18:34 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主B
+2024-01-30 23:18:48 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主B
+2024-01-30 23:19:01 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主B
+2024-01-30 23:19:29 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主B
+2024-01-30 23:20:03 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主B
+2024-01-30 23:20:12 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主B
+2024-01-30 23:20:25 - INFO - simulator - round - Round 4 finished. Advertising Data: 
+2024-01-30 23:20:25 - INFO - simulator - save - Current simulator Save in: 
+data/simulator/376697829-Round[4]-AgentNum[10]-2024-01-30-23_20_25.pkl
+
+2024-01-30 23:20:25 - INFO - simulator - save - Simulator File Path (root -> node): 
+['304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl', '419235738-Round[2]-AgentNum[10]-2024-01-30-22_55_14.pkl', '958401484-Round[3]-AgentNum[10]-2024-01-30-23_07_34.pkl', '376697829-Round[4]-AgentNum[10]-2024-01-30-23_20_25.pkl']
+
+2024-01-30 23:20:25 - INFO - simulator - main - Round 5
+2024-01-30 23:20:31 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 23:20:31 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user John Doe.
+2024-01-30 23:20:34 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:20:34 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Jane Smith.
+2024-01-30 23:20:43 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:20:48 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:20:48 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Emily Davis.
+2024-01-30 23:20:53 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:20:53 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user David Wilson.
+2024-01-30 23:21:00 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:21:00 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Sarah Thompson.
+2024-01-30 23:21:05 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:21:05 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Robert Anderson.
+2024-01-30 23:21:09 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:21:09 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Lisa Brown.
+2024-01-30 23:21:16 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:21:16 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user James Taylor.
+2024-01-30 23:21:23 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:21:23 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Amy Miller.
+2024-01-30 23:21:30 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 23:21:30 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user John Doe.
+2024-01-30 23:21:34 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:21:34 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Jane Smith.
+2024-01-30 23:21:42 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:21:48 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:21:48 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Emily Davis.
+2024-01-30 23:21:55 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:21:55 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user David Wilson.
+2024-01-30 23:22:01 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:22:01 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Sarah Thompson.
+2024-01-30 23:22:08 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:22:08 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Robert Anderson.
+2024-01-30 23:22:12 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:22:12 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Lisa Brown.
+2024-01-30 23:22:19 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:22:19 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user James Taylor.
+2024-01-30 23:22:23 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:22:23 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Amy Miller.
+2024-01-30 23:22:23 - INFO - simulator - group_one_step - Here's an advertisement: the type is Luxury Product,the slogan is Exquisite craftsmanship, showcasing taste and the product of the ad is Montblanc pen
+
+2024-01-30 23:22:43 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主A
+2024-01-30 23:23:12 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主A
+2024-01-30 23:23:24 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主A
+2024-01-30 23:23:55 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主A
+2024-01-30 23:24:09 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主A
+2024-01-30 23:24:44 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主A
+2024-01-30 23:25:07 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主A
+2024-01-30 23:25:20 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主A
+2024-01-30 23:25:47 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主A
+2024-01-30 23:26:19 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主A
+2024-01-30 23:26:34 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主A
+2024-01-30 23:27:03 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主A
+2024-01-30 23:27:35 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主A
+2024-01-30 23:27:45 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主A
+2024-01-30 23:27:59 - INFO - simulator - group_one_step - Here's an advertisement: the type is Everyday Product,the slogan is Delicious cuisine, satisfying taste buds and the product of the ad is Midea microwave oven
+
+2024-01-30 23:28:14 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主B
+2024-01-30 23:28:43 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主B
+2024-01-30 23:28:56 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主B
+2024-01-30 23:31:11 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主B
+2024-01-30 23:31:21 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主B
+2024-01-30 23:31:32 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主B
+2024-01-30 23:31:47 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主B
+2024-01-30 23:32:01 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主B
+2024-01-30 23:32:23 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主B
+2024-01-30 23:32:40 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主B
+2024-01-30 23:32:50 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主B
+2024-01-30 23:33:23 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主B
+2024-01-30 23:33:56 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主B
+2024-01-30 23:34:05 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主B
+2024-01-30 23:34:20 - INFO - simulator - round - Round 5 finished. Advertising Data: 
+2024-01-30 23:34:20 - INFO - simulator - save - Current simulator Save in: 
+data/simulator/227598633-Round[5]-AgentNum[10]-2024-01-30-23_34_20.pkl
+
+2024-01-30 23:34:20 - INFO - simulator - save - Simulator File Path (root -> node): 
+['304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl', '419235738-Round[2]-AgentNum[10]-2024-01-30-22_55_14.pkl', '958401484-Round[3]-AgentNum[10]-2024-01-30-23_07_34.pkl', '376697829-Round[4]-AgentNum[10]-2024-01-30-23_20_25.pkl', '227598633-Round[5]-AgentNum[10]-2024-01-30-23_34_20.pkl']
+
+2024-01-30 23:34:20 - INFO - simulator - main - Round 6
+2024-01-30 23:34:23 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 23:34:23 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user John Doe.
+2024-01-30 23:34:29 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:34:29 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Jane Smith.
+2024-01-30 23:34:33 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:34:39 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:34:39 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Emily Davis.
+2024-01-30 23:34:52 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:34:52 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user David Wilson.
+2024-01-30 23:34:54 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:34:54 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Sarah Thompson.
+2024-01-30 23:34:58 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:34:58 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Robert Anderson.
+2024-01-30 23:35:03 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:35:03 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Lisa Brown.
+2024-01-30 23:35:10 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:35:10 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user James Taylor.
+2024-01-30 23:35:16 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:35:16 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Amy Miller.
+2024-01-30 23:35:21 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 23:35:21 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user John Doe.
+2024-01-30 23:35:34 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:35:34 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Jane Smith.
+2024-01-30 23:35:37 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:35:41 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:35:41 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Emily Davis.
+2024-01-30 23:35:44 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:35:44 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user David Wilson.
+2024-01-30 23:35:52 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:35:52 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Sarah Thompson.
+2024-01-30 23:35:58 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:35:58 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Robert Anderson.
+2024-01-30 23:36:05 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:36:05 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Lisa Brown.
+2024-01-30 23:36:10 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:36:10 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user James Taylor.
+2024-01-30 23:36:17 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:36:17 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Amy Miller.
+2024-01-30 23:36:17 - INFO - simulator - group_one_step - Here's an advertisement: the type is Luxury Product,the slogan is Ultimate enjoyment, all at your side and the product of the ad is Hermes men's watch
+
+2024-01-30 23:36:37 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主A
+2024-01-30 23:37:14 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主A
+2024-01-30 23:37:17 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主A
+2024-01-30 23:38:04 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主A
+2024-01-30 23:38:19 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主A
+2024-01-30 23:38:34 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主A
+2024-01-30 23:39:00 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主A
+2024-01-30 23:39:11 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主A
+2024-01-30 23:39:45 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主A
+2024-01-30 23:40:18 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主A
+2024-01-30 23:40:23 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主A
+2024-01-30 23:40:53 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主A
+2024-01-30 23:41:21 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主A
+2024-01-30 23:41:40 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主A
+2024-01-30 23:41:53 - INFO - simulator - group_one_step - Here's an advertisement: the type is Everyday Product,the slogan is Comfortable environment, relaxing body and mind and the product of the ad is Haier air purifier
+
+2024-01-30 23:42:06 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主B
+2024-01-30 23:42:35 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主B
+2024-01-30 23:42:53 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主B
+2024-01-30 23:43:18 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主B
+2024-01-30 23:43:30 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主B
+2024-01-30 23:44:04 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主B
+2024-01-30 23:44:31 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主B
+2024-01-30 23:44:45 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主B
+2024-01-30 23:45:13 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主B
+2024-01-30 23:45:46 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主B
+2024-01-30 23:45:55 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主B
+2024-01-30 23:46:30 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主B
+2024-01-30 23:46:56 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主B
+2024-01-30 23:47:08 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主B
+2024-01-30 23:47:18 - INFO - simulator - round - Round 6 finished. Advertising Data: 
+2024-01-30 23:47:18 - INFO - simulator - save - Current simulator Save in: 
+data/simulator/198847509-Round[6]-AgentNum[10]-2024-01-30-23_47_18.pkl
+
+2024-01-30 23:47:18 - INFO - simulator - save - Simulator File Path (root -> node): 
+['304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl', '419235738-Round[2]-AgentNum[10]-2024-01-30-22_55_14.pkl', '958401484-Round[3]-AgentNum[10]-2024-01-30-23_07_34.pkl', '376697829-Round[4]-AgentNum[10]-2024-01-30-23_20_25.pkl', '227598633-Round[5]-AgentNum[10]-2024-01-30-23_34_20.pkl', '198847509-Round[6]-AgentNum[10]-2024-01-30-23_47_18.pkl']
+
+2024-01-30 23:47:18 - INFO - simulator - main - Round 7
+2024-01-30 23:47:25 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 23:47:25 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user John Doe.
+2024-01-30 23:47:34 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:47:34 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Jane Smith.
+2024-01-30 23:47:38 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:47:42 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:47:42 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Emily Davis.
+2024-01-30 23:47:50 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:47:50 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user David Wilson.
+2024-01-30 23:47:56 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:47:56 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Sarah Thompson.
+2024-01-30 23:47:59 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:47:59 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Robert Anderson.
+2024-01-30 23:48:10 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:48:10 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Lisa Brown.
+2024-01-30 23:48:13 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:48:13 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user James Taylor.
+2024-01-30 23:48:22 - INFO - simulator - adv_one_step - 广告主A is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:48:22 - INFO - simulator - adv_one_step - 广告主A is going to advertise to user Amy Miller.
+2024-01-30 23:48:23 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user John Doe: Yes.
+2024-01-30 23:48:23 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user John Doe.
+2024-01-30 23:48:32 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Jane Smith: Yes.
+2024-01-30 23:48:32 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Jane Smith.
+2024-01-30 23:48:40 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Michael Johnson: No.
+2024-01-30 23:48:42 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Emily Davis: Yes.
+2024-01-30 23:48:42 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Emily Davis.
+2024-01-30 23:48:47 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user David Wilson: Yes.
+2024-01-30 23:48:47 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user David Wilson.
+2024-01-30 23:48:56 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Sarah Thompson: Yes.
+2024-01-30 23:48:56 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Sarah Thompson.
+2024-01-30 23:49:00 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Robert Anderson: Yes.
+2024-01-30 23:49:00 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Robert Anderson.
+2024-01-30 23:49:10 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Lisa Brown: Yes.
+2024-01-30 23:49:10 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Lisa Brown.
+2024-01-30 23:49:13 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user James Taylor: Yes.
+2024-01-30 23:49:13 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user James Taylor.
+2024-01-30 23:49:21 - INFO - simulator - adv_one_step - 广告主B is going to decide whether to advertise to user Amy Miller: Yes.
+2024-01-30 23:49:21 - INFO - simulator - adv_one_step - 广告主B is going to advertise to user Amy Miller.
+2024-01-30 23:49:21 - INFO - simulator - group_one_step - Here's an advertisement: the type is Luxury Product,the slogan is Fashion trend, leading the times and the product of the ad is Hermes silk scarf
+
+2024-01-30 23:49:36 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主A
+2024-01-30 23:50:08 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主A
+2024-01-30 23:50:20 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主A
+2024-01-30 23:50:52 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主A
+2024-01-30 23:51:09 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主A
+2024-01-30 23:51:33 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主A
+2024-01-30 23:52:16 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主A
+2024-01-30 23:52:20 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主A
+2024-01-30 23:52:49 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主A
+2024-01-30 23:53:15 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主A
+2024-01-30 23:53:27 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主A
+2024-01-30 23:53:58 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主A
+2024-01-30 23:54:34 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主A
+2024-01-30 23:54:39 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主A
+2024-01-30 23:54:52 - INFO - simulator - group_one_step - Here's an advertisement: the type is Everyday Product,the slogan is Warm home, creating a warm atmosphere and the product of the ad is Midea electric heater
+
+2024-01-30 23:55:12 - INFO - simulator - group_one_step - John Doe doesn't do anything of the ad of 广告主B
+2024-01-30 23:55:40 - INFO - simulator - group_one_step - Jane Smith forward the ad of 广告主B
+2024-01-30 23:55:52 - INFO - simulator - group_one_step - Jane Smith convert the ad of 广告主B
+2024-01-30 23:56:21 - INFO - simulator - group_one_step - Emily Davis forward the ad of 广告主B
+2024-01-30 23:56:31 - INFO - simulator - group_one_step - Emily Davis convert the ad of 广告主B
+2024-01-30 23:57:09 - INFO - simulator - group_one_step - David Wilson doesn't do anything of the ad of 广告主B
+2024-01-30 23:57:35 - INFO - simulator - group_one_step - Sarah Thompson forward the ad of 广告主B
+2024-01-30 23:57:48 - INFO - simulator - group_one_step - Sarah Thompson convert the ad of 广告主B
+2024-01-30 23:58:17 - INFO - simulator - group_one_step - Robert Anderson doesn't do anything of the ad of 广告主B
+2024-01-30 23:58:45 - INFO - simulator - group_one_step - Lisa Brown forward the ad of 广告主B
+2024-01-30 23:58:58 - INFO - simulator - group_one_step - Lisa Brown convert the ad of 广告主B
+2024-01-30 23:59:27 - INFO - simulator - group_one_step - James Taylor doesn't do anything of the ad of 广告主B
+2024-01-30 23:59:58 - INFO - simulator - group_one_step - Amy Miller forward the ad of 广告主B
+2024-01-31 00:00:15 - INFO - simulator - group_one_step - Amy Miller convert the ad of 广告主B
+2024-01-31 00:00:24 - INFO - simulator - round - Round 7 finished. Advertising Data: 
+2024-01-31 00:00:24 - INFO - simulator - save - Current simulator Save in: 
+data/simulator/200202579-Round[7]-AgentNum[10]-2024-01-31-00_00_24.pkl
+
+2024-01-31 00:00:24 - INFO - simulator - save - Simulator File Path (root -> node): 
+['304659712-Round[1]-AgentNum[10]-2024-01-30-22_43_09.pkl', '419235738-Round[2]-AgentNum[10]-2024-01-30-22_55_14.pkl', '958401484-Round[3]-AgentNum[10]-2024-01-30-23_07_34.pkl', '376697829-Round[4]-AgentNum[10]-2024-01-30-23_20_25.pkl', '227598633-Round[5]-AgentNum[10]-2024-01-30-23_34_20.pkl', '198847509-Round[6]-AgentNum[10]-2024-01-30-23_47_18.pkl', '200202579-Round[7]-AgentNum[10]-2024-01-31-00_00_24.pkl']
+
